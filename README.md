@@ -21,7 +21,7 @@ THEN I can save my initials and score
 ```
 
 ## Preview:
-![Application Preview](demo.gif)
+![Application Preview](./assets/images/ezgif.com-gif-maker.gif)
 
 ## Deployed Link:
 [Code Quiz App](https://sadiqmomin.github.io/Javascript-Code-Quiz/)
@@ -31,5 +31,6 @@ git clone git@github.com:SadiqMomin/Javascript-Code-Quiz.git
 ```
 
 ## Learning Points:
-* This app was a practice in writing the backend code only and then integrating it with provided front end code (index.html, notes.html, and custom jQuery)
-* Practice setting up an Express server and in particular learning the importance of using the express.static() function to ensure proper delivery of local js/css files used by html files being delivered via .sendFile();
+* This app was a practice in using javascript to set and call several functions.
+* Used both script.js to pass universal functions also created a highscore.js to call the highscore functions and used the questions.js to keep a storage of all the questions and answers.
+* Used JavaScript documentations to help build and debug the quiz.
