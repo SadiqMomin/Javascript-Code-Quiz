@@ -15,7 +15,7 @@
     <div class="timer">Time:<section id="time">0</section>
     </div>
 
-    <div class="wrapper">
+    <div class="container">
       <div>
         <div id="start-window" class="start">
           <h1>Javascript Coding Quiz Challenge</h1>
@@ -25,15 +25,15 @@
             highest score. Note that missing a question will reduce your time,
             so think right and good luck!
           </p>
-          <button id="start">Start</button>
+          <button id="begin">Begin Quiz</button>
         </div>
 
-        <div id="questions" class="hide">
+        <div id="questions" class="hidden">
           <h2 id="question-type"></h2>
           <div id="choices" class="choices"></div>
         </div>
 
-        <div id="finished" class="hide">
+        <div id="finished" class="hidden">
           <h2>You finished the quiz!</h2>
           <p>Congradulations your new score is <span id="new-score"></span>.</p>
           <p>
@@ -42,7 +42,7 @@
           </p>
         </div>
 
-        <div id="comment" class="comment hide"></div>
+        <div id="comment" class="comment hidden"></div>
       </div>
 
       <script src="./script.js"></script>
