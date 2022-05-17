@@ -7,7 +7,7 @@ var nameEl = document.querySelector("#name")
 var commentEl = document.querySelector("#comment")
 
 var questionIndex = 0;
-var time = 60;
+var time = 80;
 var timerId;
 
 function beginQuiz() {

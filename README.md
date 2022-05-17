@@ -34,3 +34,6 @@ git clone git@github.com:SadiqMomin/Javascript-Code-Quiz.git
 * This app was a practice in using javascript to set and call several functions.
 * Used both script.js to pass universal functions also created a highscore.js to call the highscore functions and used the questions.js to keep a storage of all the questions and answers.
 * Used JavaScript documentations to help build and debug the quiz.
+
+## Author:
+Coded by Sadiq Momin 2022

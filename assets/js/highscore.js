@@ -3,7 +3,7 @@ function displayHighscore() {
 
     highscore.forEach(function(scores) {
         var listEl = document.createElement("li");
-        listEl.textContent = scores.name + " - " + scores.scores;
+        listEl.textContent = scores.name + " - " + scores.score;
 
         var listEl2 = document.getElementById("highscore");
         listEl2.appendChild(listEl);
