@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      
+
     <div class="scores">
       <a href="./highscore.html">View Your Highscores</a>
     </div>
-    <div class="timer">Time:<section id="time">0</section>
+    <div class="timer">Time: <span id="time">0</span>
     </div>
 
     <div class="container">
@@ -28,21 +28,21 @@
           <button id="begin">Begin Quiz</button>
         </div>
 
-        <div id="questions" class="hidden">
-          <h2 id="question-type"></h2>
+        <div id="questions" class="hide">
+          <h2 id="question-text"></h2>
           <div id="choices" class="choices"></div>
         </div>
 
-        <div id="finished" class="hidden">
+        <div id="finished" class="hide">
           <h2>You finished the quiz!</h2>
-          <p>Congradulations your new score is <span id="new-score"></span>.</p>
+          <p>Awesome job, your new score is <var id="new_score"></var>.</p>
           <p>
             Enter your name: <input type="text" id="name" max="15" />
             <button id="submit">Submit</button>
           </p>
         </div>
 
-        <div id="comment" class="comment hidden"></div>
+        <div id="comment" class="comment hide"></div>
       </div>
 
       <script src="./script.js"></script>
