@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Code Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      
+    <div class="scores">
+      <a href="./highscore.html">View Your Highscores</a>
+    </div>
+    <div class="timer">Time:<section id="time">0</section>
+    </div>
+
+    <div class="wrapper">
+      <div>
+        <div id="start-window" class="start">
+          <h1>Javascript Coding Quiz Challenge</h1>
+          <p>
+            Lets test your knowldge of what you've learned so far with HTML, CSS
+            and Javascript related questions. Answer as many right to get the
+            highest score. Note that missing a question will reduce your time,
+            so think right and good luck!
+          </p>
+          <button id="start">Start</button>
+        </div>
+
+        <div id="questions" class="hide">
+          <h2 id="question-type"></h2>
+          <div id="choices" class="choices"></div>
+        </div>
+
+        <div id="finished" class="hide">
+          <h2>You finished the quiz!</h2>
+          <p>Congradulations your new score is <span id="new-score"></span>.</p>
+          <p>
+            Enter your name: <input type="text" id="name" max="15" />
+            <button id="submit">Submit</button>
+          </p>
+        </div>
+
+        <div id="comment" class="comment hide"></div>
+      </div>
+
+      <script src="./script.js"></script>
+      <script src="./script.js"></script>
+  </body>
+</html>
